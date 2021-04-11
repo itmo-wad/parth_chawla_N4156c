@@ -1,0 +1,39 @@
+.heading{
+    text-align: center}
+
+.flexi {
+    max-width: 1500px; /* 1153*/
+    margin: 0 auto}
+
+.image_container {
+    margin: -1rem -1rem;
+    display: flex;  
+    flex-wrap: wrap /* wrap to send the images in multiple lines*/}
+
+/* setting the image to relative postion and not absolute as if absolute every image till overlap*/
+.image_container div {
+    position: relative; 
+   padding: 1rem;
+   flex: 1 0 22rem}
+
+/* this section will scale the image in the column some possible opetions are noscale, fill, cover etc*/
+.flexi .image_container div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%}
+
+/*Setting the hover effect*/
+.flexi .image_container div img:hover{
+    cursor:not-allowed;
+    opacity:0.8}
+#modol1, #modol2, #modol3, #modol4, #modol5, #modol6, #modol7, #modol8, #modol9{
+    display: none;
+    z-index: 1;
+    position:fixed;
+    text-align: center;
+    width:100vw;
+    height: 100vw;
+    transform: translate(0%,-41.7%);
+    background-color: rgba(92, 102, 194, 0.4);
+    
+}
