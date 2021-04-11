@@ -37,3 +37,18 @@
     background-color: rgba(92, 102, 194, 0.4);
     
 }
+.row{
+      width:900px;
+      padding: 5px 5px;
+      text-align: center;
+      margin: auto}
+
+  .row div {
+    float:right;
+    width: 31.3%;
+    padding: 9px;
+  
+  }
+  .row div img{
+      width:100%;
+  }
