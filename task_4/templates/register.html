@@ -25,25 +25,25 @@
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Join today</legend>
                 <div class="form-group">
-                    {{ form.username.label(class="form-control-label") }}
-                    {{ form.username(class="form-control form-control-lg") }}
+                    <label for="exampleInputEmail1">Username</label>
+                    <input type="text" class="form-control" name="username" placeholder="Username">
+                </div>
+
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="email" class="form-control" name="email">
                 </div>
                 <div class="form-group">
-                    {{ form.email.label(class="form-control-label") }}
-                    {{ form.email(class="form-control form-control-lg") }}
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" name="pass">
                 </div>
                 <div class="form-group">
-                    {{ form.password.label(class="form-control-label") }}
-                    {{ form.password(class="form-control form-control-lg") }}
-                </div>
-                <div class="form-group">
-                    {{ form.confirm_password.label(class="form-control-label") }}
-                    {{ form.confirm_password(class="form-control form-control-lg") }}
+                    <label>Confirm Password</label>
+                    <input type="password" class="form-control" name="confirmpass">
                 </div>
             </fieldset>
-        <div class="form-group">
-            {{ form.submit(class="btn- btn-outline-info") }}
-        </div>
+        <button type="submit" class="btn btn-primary btn-block">Register</button>
     </form>
 
 </div>
