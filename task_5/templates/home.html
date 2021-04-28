@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title></title>
+ <style> 
+ .row{
+    width:900px;
+    padding: 5px 5px;
+    text-align: center;
+    margin: auto}
+
+.row div {
+  float:right;
+  width: 31.3%;
+  padding: 9px;
+
+}
+.row div img{
+    width:100%;
+}
+.heading{
+    text-align: center}
+    </style>
+</head>
+<body>
+    <h1 class="heading">Image Gallery</h1>
+    <div class="row">
+        <div> <img src="{{url_for('static', filename='polo.png')}}"> </div>
+        <div> <img src="{{url_for('static', filename='polo.png')}}"> </div>
+        <div> <img src="{{url_for('static', filename='polo.png')}}"> </div>
+        <div> <img src="{{url_for('static', filename='polo.png')}}"> </div>
+        <div> <img src="{{url_for('static', filename='polo.png')}}"> </div>
+        <div> <img src="{{url_for('static', filename='polo.png')}}"> </div>
+        <div> <img src="{{url_for('static', filename='polo.png')}}"> </div>
+        <div> <img src="{{url_for('static', filename='polo.png')}}"> </div>
+        <div> <img src="{{url_for('static', filename='polo.png')}}"> </div>
+    </div>
+</body>
+</html>
