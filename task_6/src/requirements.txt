@@ -1,0 +1,8 @@
+flask
+flask_pymongo
+flask_login
+flaskblog
+flask_httpauth
+form
+secrets
+

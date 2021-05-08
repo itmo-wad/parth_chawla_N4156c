@@ -1,0 +1,5 @@
+FROM python:3.8-slim-buster
+ADD .usr/src/
+WORKDIR /usr/src/
+COPY ./src/requirements.txt /usr/src/requirements.txt
+RUN pip install -r requirements.txt
